@@ -2,12 +2,12 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
-        long current = 1000;
-        long put = 20000;
+        int current = 1000;
+        int put = 20000;
         int coefficient = 100;
-        long limit = 1000;
-        long bonus;
-        if (put > limit) {
+        int treshold = 1000;
+        int bonus;
+        if (put > treshold) {
         bonus = put / coefficient;
         } else {
             bonus = 0;
